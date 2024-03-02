@@ -3,7 +3,7 @@ import tamagotchi as game
 
 
 def pause():
-    input('\naperte qualquer tecla "enter" para continuar\n')
+    input('\naperte a tecla "enter" para continuar\n')
 
 
 # rodando o jogo
@@ -15,8 +15,8 @@ if __name__ == "__main__":
         print('vamos começar o jogo!')
         while tamagotchi.life == True:
             choice = input('qual destas opções você deseja escolher?\n' +
-                           '1. tomar banho\n' +
-                           '2. dormir\n' +
+                           '1. dormir\n' +
+                           '2. tomar banho\n' +
                            '3. comer\n' +
                            '4. brincar\n' +
                            '5. trabalhar\n' +

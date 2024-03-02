@@ -90,6 +90,7 @@ class Tamagotchi:
     def status(self):
         print('status do {}\n'.format(self.name) +
               'idade: {}\n'.format(self.age) +
+              'energia: {}\n'.format(self.energy) +
               'limpeza: {}\n'.format(self.clean) +
               'fome: {}\n'.format(self.food) +
               'diversão: {}\n'.format(self.fun) +
